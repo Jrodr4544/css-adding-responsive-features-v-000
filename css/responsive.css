@@ -75,5 +75,16 @@
 }
 
 @media only screen and (max-width: 700px) {
-  
+    #navbar nav a {
+    display: none;
+  }
+  #navbar nav a.menu-icon {
+    display: block;
+  }
+  #logo h2 {
+    display: none;
+  }
+  #social a {
+    display: inline-block;
+  }
 }
